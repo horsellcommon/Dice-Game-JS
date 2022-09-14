@@ -15,11 +15,14 @@ p{
     margin: auto;
 }
 
+.container{
+    display: flex;
+}
 .outer-border{
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 50%;
+    width: 33%;
     justify-content: center;
     align-items: center;
     border: solid thick black;
@@ -48,6 +51,39 @@ button{
 }
 
 #die{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.p2-outer-border{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    border: solid thick black;
+    width: 700px;
+    height: 700px;
+}
+.p2-inner-border{
+    display: flex;
+    margin: auto;
+    border: solid thin orangered;
+    width: 350px;
+    height: 350px;
+}
+.p2-text-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+#p2-die{
     display: flex;
     margin: auto;
     justify-content: center;
