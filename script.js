@@ -6,6 +6,7 @@ const p2button = document.getElementById("p2-button")
 const p2diceImage = document.getElementById("p2-diceImage")
 const p2scoreElement = document.getElementById("p2-score")
 const p2winLoseElement = document.getElementById("p2-winlose")
+const newGame = document.getElementById("newgame")
 let score = 0
 let p2score = 0
 scoreElement.textContent = 0
@@ -29,6 +30,17 @@ const p2lossUpdater = () => {
 const p2elementUpdater = () => {
     p2scoreElement.textContent = p2score
 }
+
+newGame.addEventListener("click", () => {
+    score = 0
+    p2score = 0
+    diceImage.src=""
+    p2diceImage.src=""
+    scoreElement.textContent="0"
+    p2scoreElement.textContent="0"
+    winLoseElement.textContent=""
+    p2winLoseElement.textContent=""
+})
 
 button.addEventListener("click", () => {
     winLoseElement.textContent = ""

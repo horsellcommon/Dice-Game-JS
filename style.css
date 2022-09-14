@@ -88,3 +88,12 @@ button{
     margin: auto;
     justify-content: center;
 }
+
+.newgame{
+    margin: auto;
+}
+#newgame{
+    padding: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
