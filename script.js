@@ -14,6 +14,7 @@ const p2totalScore = document.getElementById("p2totalscore")
 let score = 0
 let p2score = 0
 totalScore.textContent = 0
+p2totalScore.textContent = 0
 scoreElement.textContent = 0
 p2scoreElement.textContent = 0
 button.disabled = true
@@ -41,17 +42,21 @@ const p2elementUpdater = () => {
 }
 
 newGame.addEventListener("click", () => {
-    holdScore.disabled = false
-    p2holdScore.disabled = false
     if (score >= 20){
         button.disabled = true
         p2button.disabled = false
+        holdScore.disabled = true
+        p2holdScore.disabled = false
     } else if (p2score >= 20){
         button.disabled = false
         p2button.disabled = true
+        holdScore.disabled = false
+        p2holdScore.disabled = true
     } else if (score < 20 && p2score < 20){
         button.disabled = false
         p2button.disabled = true
+        holdScore.disabled = false
+        p2holdScore.disabled = true
     }
     score = 0
     p2score = 0
@@ -68,7 +73,9 @@ let accumulatedScore = 0
 let p2accumulatedScore = 0
 holdScore.addEventListener("click", () => {
     button.disabled = true
+    holdScore.disabled = true
     p2button.disabled = false
+    p2holdScore.disabled = false
     accumulatedScore = accumulatedScore+score
     totalScore.textContent = accumulatedScore
     score = 0
@@ -86,6 +93,8 @@ holdScore.addEventListener("click", () => {
 p2holdScore.addEventListener("click", () => {
     p2button.disabled = true
     button.disabled = false
+    p2holdScore.disabled = true
+    holdScore.disabled = false
     p2accumulatedScore = p2accumulatedScore+p2score
     p2totalScore.textContent = p2accumulatedScore
     p2score = 0
@@ -108,7 +117,9 @@ button.addEventListener("click", () => {
         diceImage.src=""
         score = 0
         button.disabled = true
+        holdScore.disabled = true
         p2button.disabled = false
+        p2holdScore.disabled = false
         elementUpdater()
         if (score >= 20){
             elementUpdater()
@@ -196,6 +207,8 @@ p2button.addEventListener("click", () => {
         p2diceImage.src=""
         p2button.disabled = true
         button.disabled = false
+        p2holdScore.disabled = true
+        holdScore.disabled = false
         p2score = 0
         p2elementUpdater()
         if (p2score >= 20){
