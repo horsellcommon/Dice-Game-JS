@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    margin: auto;
+}
+
+.outer-border{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border: solid thick black;
+    width: 700px;
+    height: 700px;
+}
+.inner-border{
+    display: flex;
+    margin: auto;
+    border: solid thin orangered;
+    width: 350px;
+    height: 350px;
+}
+.text-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+button{
+    margin: auto;
+}
