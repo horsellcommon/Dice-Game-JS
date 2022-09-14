@@ -16,7 +16,10 @@ let p2score = 0
 totalScore.textContent = 0
 scoreElement.textContent = 0
 p2scoreElement.textContent = 0
+button.disabled = true
 p2button.disabled = true
+holdScore.disabled = true
+p2holdScore.disabled = true
 
 const winUpdater = () => {
     winLoseElement.textContent = "YOU WIN"
@@ -38,6 +41,8 @@ const p2elementUpdater = () => {
 }
 
 newGame.addEventListener("click", () => {
+    holdScore.disabled = false
+    p2holdScore.disabled = false
     if (score >= 20){
         button.disabled = true
         p2button.disabled = false
