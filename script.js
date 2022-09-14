@@ -60,10 +60,13 @@ newGame.addEventListener("click", () => {
     }
     score = 0
     p2score = 0
+    accumulatedScore = 0
+    p2accumulatedScore = 0
     diceImage.src=""
     p2diceImage.src=""
     scoreElement.textContent="0"
     totalScore.textContent="0"
+    p2totalScore.textContent="0"
     p2scoreElement.textContent="0"
     winLoseElement.textContent=""
     p2winLoseElement.textContent=""
