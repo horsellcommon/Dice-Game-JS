@@ -5,6 +5,7 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
 }
 
@@ -29,10 +30,18 @@ h2{
 .text-row{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: auto;
+    
 }
 
 button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
+}
+
+#die{
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
