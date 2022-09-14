@@ -27,7 +27,7 @@ const p2lossUpdater = () => {
     p2winLoseElement.textContent = "YOU LOSE"
 }
 const p2elementUpdater = () => {
-    p2scoreElement.textContent = score
+    p2scoreElement.textContent = p2score
 }
 
 button.addEventListener("click", () => {
@@ -37,7 +37,9 @@ button.addEventListener("click", () => {
         diceImage.src=""
         elementUpdater()
         lossUpdater()
+        p2winUpdater()
         score = 0
+        p2score = 0
     } else if (randValue == 2){
         diceImage.src="img/dice2.png"
         score = score + randValue
@@ -47,6 +49,9 @@ button.addEventListener("click", () => {
             winUpdater()
             diceImage.src=""
             score = 0
+            p2lossUpdater()
+            p2diceImage.src=""
+            p2score = 0
         }
     } else if (randValue == 3){
         diceImage.src="img/dice3.png"
@@ -57,6 +62,9 @@ button.addEventListener("click", () => {
             winUpdater()
             diceImage.src=""
             score = 0
+            p2lossUpdater()
+            p2diceImage.src=""
+            p2score = 0
         }
     } else if (randValue == 4){
         diceImage.src="img/dice4.png"
@@ -67,6 +75,9 @@ button.addEventListener("click", () => {
             winUpdater()
             diceImage.src=""
             score = 0
+            p2lossUpdater()
+            p2diceImage.src=""
+            p2score = 0
         }
     } else if (randValue == 5){
         diceImage.src="img/dice5.png"
@@ -77,6 +88,9 @@ button.addEventListener("click", () => {
             winUpdater()
             diceImage.src=""
             score = 0
+            p2lossUpdater()
+            p2diceImage.src=""
+            p2score = 0
         }
     } else if (randValue == 6){
         diceImage.src="img/dice6.png"
@@ -87,6 +101,9 @@ button.addEventListener("click", () => {
             winUpdater()
             diceImage.src=""
             score = 0
+            p2lossUpdater()
+            p2diceImage.src=""
+            p2score = 0
         }
     }
     console.log(randValue)
@@ -101,6 +118,9 @@ p2button.addEventListener("click", () => {
         p2elementUpdater()
         p2lossUpdater()
         p2score = 0
+        winUpdater()
+        diceImage.src=""
+        score = 0
     } else if (p2randValue == 2){
         p2diceImage.src="img/dice2.png"
         p2score = p2score + p2randValue
@@ -110,6 +130,9 @@ p2button.addEventListener("click", () => {
             p2winUpdater()
             p2diceImage.src=""
             p2score = 0
+            lossUpdater()
+            diceImage.src=""
+            score = 0
         }
     } else if (p2randValue == 3){
         p2diceImage.src="img/dice3.png"
@@ -120,6 +143,9 @@ p2button.addEventListener("click", () => {
             p2winUpdater()
             p2diceImage.src=""
             p2score = 0
+            lossUpdater()
+            diceImage.src=""
+            score = 0
         }
     } else if (p2randValue == 4){
         p2diceImage.src="img/dice4.png"
@@ -130,6 +156,9 @@ p2button.addEventListener("click", () => {
             p2winUpdater()
             p2diceImage.src=""
             p2score = 0
+            lossUpdater()
+            diceImage.src=""
+            score = 0
         }
     } else if (p2randValue == 5){
         p2diceImage.src="img/dice5.png"
@@ -140,6 +169,9 @@ p2button.addEventListener("click", () => {
             p2winUpdater()
             p2diceImage.src=""
             p2score = 0
+            lossUpdater()
+            diceImage.src=""
+            score = 0
         }
     } else if (p2randValue == 6){
         p2diceImage.src="img/dice6.png"
@@ -150,6 +182,9 @@ p2button.addEventListener("click", () => {
             p2winUpdater()
             p2diceImage.src=""
             p2score = 0
+            lossUpdater()
+            diceImage.src=""
+            score = 0
         }
     }
     console.log(p2randValue)
