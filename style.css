@@ -8,6 +8,12 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
 }
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    margin: auto;
+}
 
 .outer-border{
     display: flex;
@@ -29,8 +35,9 @@ h2{
 }
 .text-row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: auto;
     
 }
