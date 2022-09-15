@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: black;
 }
 a{
     display: flex;
@@ -8,7 +8,7 @@ a{
     margin: auto;
     border: dashed;
     width: 3%;
-    padding: 0.1%;
+    padding: 1%;
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -22,6 +22,7 @@ p{
     font-weight: 800;
     font-size: 70px;
     margin: auto;
+    color: red;
 }
 u{
     color: orangered;
@@ -36,7 +37,7 @@ u{
     width: 50%;
     justify-content: center;
     align-items: center;
-    border: dotted thick black;
+    border: dotted thick red;
     width: 700px;
     height: 700px;
 }

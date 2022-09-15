@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+u{
+    color: orangered;
+}
+#Title{
+    color: brown;
+}
+img{
+    height: 310px;
+    border: dashed thick red;
+    cursor: pointer;
+}
+.play-options{
+    display: flex;
+    margin: auto;
+    /* border: solid thick green; */
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 800px;
+    padding: 1%;
+}
+.playtext{
+    color: orangered;
+    border: dotted thick white;
+    padding: 0.8%;
+}
+.die{
+    display: flex;
+    /* border: solid thick red; */
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5%;
+}
