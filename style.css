@@ -97,7 +97,7 @@ button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 800;
 }
-
+/* Mobile Devices */
 @media (max-width: 480px) {
     p{
         font-family: Arial, Helvetica, sans-serif;
@@ -173,5 +173,213 @@ button{
     #p2-diceImage{
         width: 50px;
         height: 50px;
+    }
+}
+/* Tablets */
+@media (max-width: 1024px){
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 50px;
+    }
+    h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 20%;
+    }
+    .newgame{
+        display: flex;
+        margin-left: 43.7%;
+        margin-top: 30%;
+        flex-direction: column;
+    }
+    #newgame{
+        padding: 50%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 800;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .outer-border{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+        border: solid thick black;
+        width: 250px;
+        height: 250px;
+    }
+    .inner-border{
+        display: flex;
+        margin-top: 310px;
+        padding: 10%;
+        border: solid thin orangered;
+        width: 100px;
+        height: 100px;
+    }
+    #diceImage{
+        width: 50px;
+        height: 50px;
+    }
+    #button{
+        padding: 8%;
+        margin-top: 5%;
+    }
+    #p2-button{
+        padding: 8%;
+        margin-top: 5%;
+    }
+    #hold{
+        padding: 8%;
+        margin-top: 5%;
+    }
+    #p2-hold{
+        padding: 8%;
+        margin-top: 5%;
+    }
+    .p2-outer-border{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+        border: solid thick black;
+        width: 250px;
+        height: 250px;
+    }
+    .p2-inner-border{
+        display: flex;
+        margin-top: 125%;
+        padding: 10%;
+        border: solid thin orangered;
+        width: 100px;
+        height: 100px;
+    }
+    #p2-diceImage{
+        width: 50px;
+        height: 50px;
+    }
+}
+/* 1080p */
+@media (max-width: 1080px){
+    h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: auto;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 70px;
+        margin: auto;
+    }
+    
+    .container{
+        display: flex;
+    }
+    .outer-border{
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+        border: solid thick black;
+        width: 500px;
+        height: 500px;
+    }
+    .inner-border{
+        display: flex;
+        margin-top: 300px;
+        border: solid thin orangered;
+        width: 250px;
+        height: 250px;
+    }
+    .text-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+    }
+    
+    #button{
+        margin-top: 28%;
+        padding: 2%;
+    }
+    #p2-button{
+        margin-top: 28%;
+        padding: 2%;
+    }
+    #hold{
+        margin-top: 3%;
+        padding: 2%;
+    }
+    #p2-hold{
+        margin-top: 3%;
+        padding: 2%;
+    }
+    
+    #die{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .p2-outer-border{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+        border: solid thick black;
+        width: 500px;
+        height: 500px;
+    }
+    .p2-inner-border{
+        display: flex;
+        margin-top: 300px;
+        border: solid thin orangered;
+        width: 250px;
+        height: 250px;
+    }
+    .p2-text-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+    }
+    
+    #p2-die{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .newgame{
+        margin: auto;
+    }
+    #newgame{
+        padding: 10%;
+        padding-top: 70%;
+        padding-bottom: 70%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 800;
+    }
+}
+/* 1440p */
+@media (max-width: 1440px){
+    #newgame{
+        padding: 10%;
+        padding-top: 70%;
+        padding-bottom: 70%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 800;
     }
 }
