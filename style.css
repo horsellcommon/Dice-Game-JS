@@ -335,8 +335,8 @@ button{
     }
     .newgame{
         display: flex;
-        margin-top: 65%;
-        margin-left: 36%;
+        margin-top: 80%;
+        margin-left: 40%;
         flex-direction: column;
     }
     #newgame{
@@ -361,7 +361,7 @@ button{
     }
     .inner-border{
         display: flex;
-        margin-top: 220px;
+        margin-top: 250px;
         padding: 10%;
         border: solid thin orangered;
         width: 100px;
@@ -390,7 +390,7 @@ button{
     }
     .p2-inner-border{
         display: flex;
-        margin-top: 110%;
+        margin-top: 130%;
         padding: 10%;
         border: solid thin orangered;
         width: 100px;
