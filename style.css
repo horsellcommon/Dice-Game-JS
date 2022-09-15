@@ -52,7 +52,6 @@ u{
 }
 .containthecolumn{
     display: flex;
-    justify-content: flex-end;
 }
 #rightcolumn{
     display: flex;
