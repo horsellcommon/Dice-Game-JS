@@ -8,6 +8,8 @@ u{
     color: orangered;
 }
 #Title{
+    display: flex;
+    justify-content: center;
     color: brown;
 }
 .image{
@@ -56,4 +58,16 @@ u{
 #rightcolumn{
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 1000px){
+    .playtext{
+    visibility: hidden;
+    }
+    .image{
+        height: 50px;
+        border: dashed thick red;
+        cursor: pointer;
+    }
+    
 }
