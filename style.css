@@ -14,7 +14,12 @@ p{
     font-size: 70px;
     margin: auto;
 }
-
+u{
+    color: orangered;
+}
+#Title{
+    color: brown;
+}
 .container{
     display: flex;
 }
@@ -25,14 +30,14 @@ p{
     width: 33%;
     justify-content: center;
     align-items: center;
-    border: solid thick black;
+    border: dotted thick black;
     width: 700px;
     height: 700px;
 }
 .inner-border{
     display: flex;
     margin: auto;
-    border: solid thin orangered;
+    border: dashed thick orangered;
     width: 350px;
     height: 350px;
 }
@@ -44,7 +49,18 @@ p{
     margin: auto;
     
 }
-
+#totalscore{
+    color: brown;
+}
+#p2totalscore{
+    color: brown;
+}
+#score{
+    color: crimson;
+}
+#p2-score{
+    color: crimson;
+}
 button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
@@ -63,14 +79,14 @@ button{
     width: 33%;
     justify-content: center;
     align-items: center;
-    border: solid thick black;
+    border: dotted thick black;
     width: 700px;
     height: 700px;
 }
 .p2-inner-border{
     display: flex;
     margin: auto;
-    border: solid thin orangered;
+    border: dashed thick orangered;
     width: 350px;
     height: 350px;
 }
