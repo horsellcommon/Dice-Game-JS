@@ -10,7 +10,7 @@ u{
 #Title{
     color: brown;
 }
-img{
+.image{
     height: 310px;
     border: dashed thick red;
     cursor: pointer;
@@ -39,4 +39,20 @@ img{
     justify-content: space-evenly;
     align-items: center;
     padding: 5%;
+}
+#leftcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+}
+.containthecolumn{
+    display: flex;
+    justify-content: flex-end;
+}
+#rightcolumn{
+    display: flex;
+    flex-direction: column;
 }
